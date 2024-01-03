@@ -10,7 +10,6 @@ calc.Dobrar(ref x);
 Console.WriteLine("\n Vaor do argumento x depois de passar por valor " + x);
 
 Console.ReadKey();
-
 public class Calculo
 {
     public void Dobrar (ref int y) 
