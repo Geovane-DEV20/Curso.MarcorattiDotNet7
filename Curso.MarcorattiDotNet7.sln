@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodoRetorno", "MetodoReto
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SobreCargaMetodos", "SobreCargaMetodos\SobreCargaMetodos.csproj", "{6029F577-EAFF-4359-98E7-85F543E125CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosRetorno2", "MetodosRetorno2\MetodosRetorno2.csproj", "{2BD449FD-A243-4993-8972-8A2E25E86B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetodosRetorno2", "MetodosRetorno2\MetodosRetorno2.csproj", "{2BD449FD-A243-4993-8972-8A2E25E86B23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassagemArgumento", "PassagemArgumento\PassagemArgumento.csproj", "{8807F8FD-92D5-446E-BE11-17F16C8E9D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassagemArgumento", "PassagemArgumento\PassagemArgumento.csproj", "{8807F8FD-92D5-446E-BE11-17F16C8E9D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentosReferencia", "ArgumentosReferencia\ArgumentosReferencia.csproj", "{381A1E5B-7A18-452F-8C52-62449D98B738}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{8807F8FD-92D5-446E-BE11-17F16C8E9D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8807F8FD-92D5-446E-BE11-17F16C8E9D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8807F8FD-92D5-446E-BE11-17F16C8E9D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381A1E5B-7A18-452F-8C52-62449D98B738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381A1E5B-7A18-452F-8C52-62449D98B738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381A1E5B-7A18-452F-8C52-62449D98B738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381A1E5B-7A18-452F-8C52-62449D98B738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
