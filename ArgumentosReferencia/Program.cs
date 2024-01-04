@@ -37,10 +37,9 @@ public class ArgumetosReferenciaOut
 
         Circulo circulo = new Circulo();
 
-        double perimetro = circulo.CalculaPerimetro(raio);
-        double area = circulo.CalculaArea(raio);
+        double circunferencia = circulo.CalculaAreaPerimetro(raio, out double area);
 
-        Console.WriteLine("Perimetro da circunferencia " + perimetro);
+        Console.WriteLine("Perimetro da circunferencia " + circunferencia);
         Console.WriteLine("Área de circunferência" + area);
 
         Console.ReadKey();
@@ -51,17 +50,14 @@ public class ArgumetosReferenciaOut
 }
 public class Circulo
 {
-    public Double CalculaArea(double raio)
+    public double CalculaAreaPerimetro(double raio, out double area)
     {
 
-        double area = Math.PI * Math.Pow(raio, 2);
+        area = Math.PI * Math.Pow(raio, 2);
+        double perimetro = 2 * Math.PI * raio;
         return area;
     }
 
-    public double CalculaPerimetro(double raio) {
-        double preimetro = 2 * Math.PI * raio;
-        return preimetro;
-    
-    }
+
 
 }
