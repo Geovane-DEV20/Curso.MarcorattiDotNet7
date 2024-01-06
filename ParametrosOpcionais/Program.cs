@@ -2,15 +2,14 @@
 Console.WriteLine("Hello, World!");
 
 Email email = new Email();
-email.Enviar(destino: "geovane@teste.com", titulo: "teste", assunto: "teste do teste"); //Argumentos nomeados
-
+email.Enviar("geovane@teste.com"); 
 
 Console.ReadKey();
 public class Email
 {
-    public void Enviar(string destino, string titulo, string assunto)
+    public void Enviar(string destino, string titulo = "teste", string assunto = "teste do teste") // parametros opcionais
     {
         Console.WriteLine($"{destino}, {titulo}:{assunto}");
-        
+
     }
 }
