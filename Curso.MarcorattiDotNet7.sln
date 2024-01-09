@@ -23,9 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PassagemArgumento", "Passag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgumentosReferencia", "ArgumentosReferencia\ArgumentosReferencia.csproj", "{381A1E5B-7A18-452F-8C52-62449D98B738}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgumentosNomeados", "ArgumentosNomeados\ArgumentosNomeados.csproj", "{4EF23EB5-DD44-4457-A3D0-DE1208EC4194}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgumentosNomeados", "ArgumentosNomeados\ArgumentosNomeados.csproj", "{4EF23EB5-DD44-4457-A3D0-DE1208EC4194}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrosOpcionais", "ParametrosOpcionais\ParametrosOpcionais.csproj", "{A137D996-C90F-4C62-9A67-762FF06AB613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParametrosOpcionais", "ParametrosOpcionais\ParametrosOpcionais.csproj", "{A137D996-C90F-4C62-9A67-762FF06AB613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosEstaticos", "MetodosEstaticos\MetodosEstaticos.csproj", "{DE718159-0A50-4A26-880B-9301E17334EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MembrosEstaticos_CampoPropriedade", "MembrosEstaticos_CampoPropriedade\MembrosEstaticos_CampoPropriedade.csproj", "{4E2E92F0-AA30-4135-9FA2-945282961DA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,14 @@ Global
 		{A137D996-C90F-4C62-9A67-762FF06AB613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A137D996-C90F-4C62-9A67-762FF06AB613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A137D996-C90F-4C62-9A67-762FF06AB613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE718159-0A50-4A26-880B-9301E17334EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE718159-0A50-4A26-880B-9301E17334EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE718159-0A50-4A26-880B-9301E17334EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE718159-0A50-4A26-880B-9301E17334EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2E92F0-AA30-4135-9FA2-945282961DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2E92F0-AA30-4135-9FA2-945282961DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2E92F0-AA30-4135-9FA2-945282961DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2E92F0-AA30-4135-9FA2-945282961DA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
