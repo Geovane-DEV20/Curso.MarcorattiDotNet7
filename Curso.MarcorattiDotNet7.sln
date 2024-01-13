@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Struct", "Struct\Struct.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", "{6F790ABA-ADF0-46F3-8072-130C9E378B15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCath", "TryCath\TryCath.csproj", "{4BB98E66-A61D-4ED8-8E70-D1693A8FB107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TryCath", "TryCath\TryCath.csproj", "{4BB98E66-A61D-4ED8-8E70-D1693A8FB107}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{5085E2D0-35B6-494F-B607-3463E50309C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiposAnonimos", "TiposAnonimos\TiposAnonimos.csproj", "{5085E2D0-35B6-494F-B607-3463E50309C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhaPartialClass", "MinhaPartialClassProps\MinhaPartialClass.csproj", "{270C9ADD-2115-460F-B4D7-1CE6443E9CC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{5085E2D0-35B6-494F-B607-3463E50309C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5085E2D0-35B6-494F-B607-3463E50309C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5085E2D0-35B6-494F-B607-3463E50309C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270C9ADD-2115-460F-B4D7-1CE6443E9CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270C9ADD-2115-460F-B4D7-1CE6443E9CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270C9ADD-2115-460F-B4D7-1CE6443E9CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270C9ADD-2115-460F-B4D7-1CE6443E9CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
