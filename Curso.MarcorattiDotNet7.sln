@@ -75,19 +75,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColectionList", "ColectionL
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "POO", "POO", "{43133F0B-0237-480D-B2A5-EFD5EDD937C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_ConceitoSintaxe", "Heranca_ConceitoSintaxe\Heranca_ConceitoSintaxe.csproj", "{1D506121-C23F-4AEC-9AE4-3E4CEA69738F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_ConceitoSintaxe", "Heranca_ConceitoSintaxe\Heranca_ConceitoSintaxe.csproj", "{1D506121-C23F-4AEC-9AE4-3E4CEA69738F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_ModAcesso", "Heranca_ModAcesso\Heranca_ModAcesso.csproj", "{3864516E-B630-42B8-8C7B-F3607EDE61EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_ModAcesso", "Heranca_ModAcesso\Heranca_ModAcesso.csproj", "{3864516E-B630-42B8-8C7B-F3607EDE61EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_Object", "Heranca_Object\Heranca_Object.csproj", "{090F03A1-C934-4824-A96A-820EDE03129D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_Object", "Heranca_Object\Heranca_Object.csproj", "{090F03A1-C934-4824-A96A-820EDE03129D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_Modeificar_New", "Heranca_Modeificar_New\Heranca_Modeificar_New.csproj", "{BB1BD5A7-96A8-4BFD-86FB-90FA1A40AF51}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_Modeificar_New", "Heranca_Modeificar_New\Heranca_Modeificar_New.csproj", "{BB1BD5A7-96A8-4BFD-86FB-90FA1A40AF51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_Virtual_Override", "Heranca_Virtual_Override\Heranca_Virtual_Override.csproj", "{13505878-896D-47C8-B503-378E7E44F5AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_Virtual_Override", "Heranca_Virtual_Override\Heranca_Virtual_Override.csproj", "{13505878-896D-47C8-B503-378E7E44F5AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_Modificador_Sealed", "Heranca_Modificador_Sealed\Heranca_Modificador_Sealed.csproj", "{8DB27122-CCD2-43BC-8374-220E5218DE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_Modificador_Sealed", "Heranca_Modificador_Sealed\Heranca_Modificador_Sealed.csproj", "{8DB27122-CCD2-43BC-8374-220E5218DE12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heranca_TipoHeranca", "Heranca_TipoHeranca\Heranca_TipoHeranca.csproj", "{35A86A18-F589-49E1-8E0F-2702B10AB5CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_TipoHeranca", "Heranca_TipoHeranca\Heranca_TipoHeranca.csproj", "{35A86A18-F589-49E1-8E0F-2702B10AB5CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowncastingUpcasting", "DowncastingUpcasting\DowncastingUpcasting.csproj", "{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +257,10 @@ Global
 		{35A86A18-F589-49E1-8E0F-2702B10AB5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35A86A18-F589-49E1-8E0F-2702B10AB5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35A86A18-F589-49E1-8E0F-2702B10AB5CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -300,6 +306,7 @@ Global
 		{13505878-896D-47C8-B503-378E7E44F5AA} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 		{8DB27122-CCD2-43BC-8374-220E5218DE12} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 		{35A86A18-F589-49E1-8E0F-2702B10AB5CD} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
+		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7302267-52CA-4C89-A2B8-4A49BEEBC17F}
