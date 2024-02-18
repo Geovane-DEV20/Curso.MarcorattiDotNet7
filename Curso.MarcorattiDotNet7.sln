@@ -91,6 +91,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_TipoHeranca", "Hera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowncastingUpcasting", "DowncastingUpcasting\DowncastingUpcasting.csproj", "{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadorAbstract", "ModificadorAbstract\ModificadorAbstract.csproj", "{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -307,6 +313,7 @@ Global
 		{8DB27122-CCD2-43BC-8374-220E5218DE12} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 		{35A86A18-F589-49E1-8E0F-2702B10AB5CD} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 		{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
+		{CB500C2B-6B06-46C4-931E-CCE6944EE0CE} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7302267-52CA-4C89-A2B8-4A49BEEBC17F}
