@@ -18,16 +18,16 @@ interface IControle
 }
 interface IGrafico
 {
-    void Pintar();  
+    void Calcular();  
 }
 class Demo : IControle, IGrafico
 {
-    public void Desenhar()
+    public void Calcular()
     {
 
     }
 
-    public void Pintar()
+    public void Desenhar()
     {
 
     }
