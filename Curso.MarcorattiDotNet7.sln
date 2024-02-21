@@ -89,17 +89,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_Modificador_Sealed"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heranca_TipoHeranca", "Heranca_TipoHeranca\Heranca_TipoHeranca.csproj", "{35A86A18-F589-49E1-8E0F-2702B10AB5CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DowncastingUpcasting", "DowncastingUpcasting\DowncastingUpcasting.csproj", "{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DowncastingUpcasting", "DowncastingUpcasting\DowncastingUpcasting.csproj", "{A6045FAC-E0D6-4888-B8D4-C8A03E8D6A48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModificadorAbstract", "ModificadorAbstract\ModificadorAbstract.csproj", "{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModificadorAbstract", "ModificadorAbstract\ModificadorAbstract.csproj", "{CB500C2B-6B06-46C4-931E-CCE6944EE0CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{26DE8378-B401-47CF-91D4-6F2D9EEECE3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{26DE8378-B401-47CF-91D4-6F2D9EEECE3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composição", "Composição\Composição.csproj", "{46A82C36-15E6-4ECE-99E7-B6561A142A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composição", "Composição\Composição.csproj", "{46A82C36-15E6-4ECE-99E7-B6561A142A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agregacao", "Agregacao\Agregacao.csproj", "{A1C29A61-4432-44A1-BE6A-A67339E3B199}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agregacao", "Agregacao\Agregacao.csproj", "{A1C29A61-4432-44A1-BE6A-A67339E3B199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{DB3AEEFD-66BF-4E87-BD59-B7DE5435E411}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfismo", "Polimorfismo\Polimorfismo.csproj", "{DB3AEEFD-66BF-4E87-BD59-B7DE5435E411}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{8405F0EC-A890-4C00-B601-B2BB1433D778}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{DB3AEEFD-66BF-4E87-BD59-B7DE5435E411}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB3AEEFD-66BF-4E87-BD59-B7DE5435E411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB3AEEFD-66BF-4E87-BD59-B7DE5435E411}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8405F0EC-A890-4C00-B601-B2BB1433D778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8405F0EC-A890-4C00-B601-B2BB1433D778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8405F0EC-A890-4C00-B601-B2BB1433D778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8405F0EC-A890-4C00-B601-B2BB1433D778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -342,6 +348,7 @@ Global
 		{46A82C36-15E6-4ECE-99E7-B6561A142A18} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 		{A1C29A61-4432-44A1-BE6A-A67339E3B199} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 		{DB3AEEFD-66BF-4E87-BD59-B7DE5435E411} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
+		{8405F0EC-A890-4C00-B601-B2BB1433D778} = {43133F0B-0237-480D-B2A5-EFD5EDD937C6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7302267-52CA-4C89-A2B8-4A49BEEBC17F}
