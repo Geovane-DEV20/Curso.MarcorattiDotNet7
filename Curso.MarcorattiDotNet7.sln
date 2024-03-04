@@ -103,19 +103,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfismo", "Polimorfism
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generics", "Generics\Generics.csproj", "{8405F0EC-A890-4C00-B601-B2BB1433D778}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetHashCodeAndEquals", "GetHashCodeAndEquals\GetHashCodeAndEquals.csproj", "{9D216993-4166-4920-AE06-4016AA58AE11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetHashCodeAndEquals", "GetHashCodeAndEquals\GetHashCodeAndEquals.csproj", "{9D216993-4166-4920-AE06-4016AA58AE11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecoesNaoGenericasAndGenericas", "ColecoesNaoGenericasAndGenericas\ColecoesNaoGenericasAndGenericas.csproj", "{4795853A-65C1-4938-A37D-819CE473ECB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColecoesNaoGenericasAndGenericas", "ColecoesNaoGenericasAndGenericas\ColecoesNaoGenericasAndGenericas.csproj", "{4795853A-65C1-4938-A37D-819CE473ECB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecaoDictionary", "ColecaoDictionary\ColecaoDictionary.csproj", "{1BD71E16-95F4-4106-9A27-4840F11E2E84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColecaoDictionary", "ColecaoDictionary\ColecaoDictionary.csproj", "{1BD71E16-95F4-4106-9A27-4840F11E2E84}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generics", "Generics", "{2EA5C6FE-1B89-492F-B9BD-5E6849B945ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary", "Dictionary\Dictionary.csproj", "{FD874947-3241-4684-A714-67E3E1385B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dictionary", "Dictionary\Dictionary.csproj", "{FD874947-3241-4684-A714-67E3E1385B5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedDictionary", "SortedDictionary\SortedDictionary.csproj", "{A65CA97A-77EC-4C5F-B965-31834CF73B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortedDictionary", "SortedDictionary\SortedDictionary.csproj", "{A65CA97A-77EC-4C5F-B965-31834CF73B7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColecoesSet", "ColecoesSet\ColecoesSet.csproj", "{38142A5D-E181-4F0B-AE44-25AA0F0C003A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColecoesSet", "ColecoesSet\ColecoesSet.csproj", "{38142A5D-E181-4F0B-AE44-25AA0F0C003A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashSet", "HashSet\HashSet.csproj", "{4C2FC11B-EE58-4B8E-BD17-8775403C55A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedSet", "SortedSet\SortedSet.csproj", "{1209C895-5A10-4189-95DB-49B23A722ED4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -335,6 +339,14 @@ Global
 		{38142A5D-E181-4F0B-AE44-25AA0F0C003A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38142A5D-E181-4F0B-AE44-25AA0F0C003A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38142A5D-E181-4F0B-AE44-25AA0F0C003A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2FC11B-EE58-4B8E-BD17-8775403C55A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2FC11B-EE58-4B8E-BD17-8775403C55A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2FC11B-EE58-4B8E-BD17-8775403C55A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2FC11B-EE58-4B8E-BD17-8775403C55A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1209C895-5A10-4189-95DB-49B23A722ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1209C895-5A10-4189-95DB-49B23A722ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1209C895-5A10-4189-95DB-49B23A722ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1209C895-5A10-4189-95DB-49B23A722ED4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -393,6 +405,8 @@ Global
 		{FD874947-3241-4684-A714-67E3E1385B5B} = {2EA5C6FE-1B89-492F-B9BD-5E6849B945ED}
 		{A65CA97A-77EC-4C5F-B965-31834CF73B7A} = {2EA5C6FE-1B89-492F-B9BD-5E6849B945ED}
 		{38142A5D-E181-4F0B-AE44-25AA0F0C003A} = {2EA5C6FE-1B89-492F-B9BD-5E6849B945ED}
+		{4C2FC11B-EE58-4B8E-BD17-8775403C55A5} = {2EA5C6FE-1B89-492F-B9BD-5E6849B945ED}
+		{1209C895-5A10-4189-95DB-49B23A722ED4} = {2EA5C6FE-1B89-492F-B9BD-5E6849B945ED}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A7302267-52CA-4C89-A2B8-4A49BEEBC17F}
