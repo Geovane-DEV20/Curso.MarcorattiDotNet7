@@ -17,6 +17,7 @@ foreach (var item in stack)
     Console.WriteLine(item);
 }
 
+
 //Push: Adiciona um elemento ao topo da pilha.
 //Pop: Remove o elemento do topo da pilha.
 //Peek (ou Top): Retorna o elemento no topo da pilha sem removê-lo.
